@@ -5,7 +5,7 @@ description         : >-
                       He has this Goldilocks-like sense for the interventions he does make on our behalf - never too much nor too little; just right. He nudges without being a noodge."
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : chriskaschner/chriskaschner.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : yousinix/portfolYOU
+remote_theme        : #yousinix/portfolYOU
 open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
