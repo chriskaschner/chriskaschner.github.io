@@ -1,0 +1,9 @@
+/* Pull-quote styling for the management quote on homepage */
+.home-info .entry-content blockquote,
+.post-content blockquote {
+  border-left: 3px solid var(--secondary);
+  padding-left: 1em;
+  margin: 1.5em 0;
+  font-style: italic;
+  color: var(--secondary);
+}

@@ -1,0 +1,73 @@
+baseURL: "https://chriskaschner.com/"
+languageCode: "en-us"
+title: "🚢 it"
+theme: "PaperMod"
+
+paginate: 10
+
+params:
+  env: production
+  description: >-
+    Engineering leader building teams and systems that scale — from embedded hardware to AI platforms.
+  author: "Chris Kaschner"
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: false
+  images:
+    - images/profile.jpg
+
+  homeInfoParams:
+    Title: "🚢 it"
+    Content: >
+      Engineering leader with 15+ years across embedded systems, cloud platforms, and AI/ML.
+      I build the teams and systems that make repeatable delivery possible.
+
+
+      > "Chris trusts his team members to be self-guided and steps in when he is needed.
+      He has this Goldilocks-like sense for the interventions he does make on our behalf —
+      never too much nor too little; just right. He nudges without being a noodge."
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/chriskaschner"
+    - name: linkedin
+      url: "https://linkedin.com/in/chriskaschner"
+
+  profileMode:
+    enabled: false
+
+  assets:
+    favicon: /favicon.ico
+    favicon16x16: /favicon.ico
+    favicon32x32: /favicon.ico
+    apple_touch_icon: /favicon.ico
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 20
+    - identifier: notes
+      name: Notes
+      url: /notes/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

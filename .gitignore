@@ -88,3 +88,11 @@ ENV/
 # Rope project settings
 .ropeproject
 .DS_Store
+
+# Hugo
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Source material
+raw_material/
